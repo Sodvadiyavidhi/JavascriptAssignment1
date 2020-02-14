@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>To-Do List </title>
+      <link rel="stylesheet" href="main.css">
+      
+    </head>
+    <body>
+        <audio id="myaudio"><source src="ding.mp3" type="audio/mpeg"></audio>
+        <main>
+     <section class="container">
+         <div>
+  <h1>Vidhi's List to complete today</h1>
+  <label for="new-task"></label>
+  <input type="text" id="new-task" placeholder="Add the task to be done">
+    <button id="addTask">Add the Task</button>
+  </div>
+  <div class="main">
+    <ul id="list">
+        <li><label id="container"><input type="checkbox">Buy grocery <button id="delete">Delete</button></label></li>
+                <li><label id="container"><input type="checkbox">Finish Database Assignment <button id="delete">Delete</button></label></li>
+                <li><label id="container"><input type="checkbox">Clean Refrigerator <button id="delete">Delete</button></label></li>
+                <li><label id="container"><input type="checkbox">Invite Emma for the party <button id="delete">Delete</button></label></li>
+                <li><label id="container"><input type="checkbox">Jogging <button id="delete">Delete</button></label></li>   
+            </ul>
+  </div>
+
+</section>
+        </main>
+         <footer>
+        <h2>This are the tasks I have completed today.</h2>
+            <div>
+    
+    <ul id="taskdone"></ul>
+      <li></li>
+  </div>   
+        </footer>
+         <script src="main.js"></script>
+    </body>

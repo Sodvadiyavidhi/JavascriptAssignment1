@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html{
+    background-image: url(todo.jpg);
+}
+h1{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 56px;
+}
+
+input[type=text]{
+         width: 35%;
+         margin-left:475px;
+         margin-bottom: 5px;
+         text-align: center;
+         box-sizing: border-box;
+         border: 2px solid ;
+         border-radius: 25px;
+         font-size: 16px;
+         background-color: white;
+         padding: 12px 20px 12px 40px;
+     } 
+button{
+    position:relative;
+    background-color:blueviolet;
+    border: solid rgba(217, 220, 226, 0.8);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    margin: auto; 
+    cursor: pointer;
+    border-radius: 25;
+    font-weight: 700;
+}
+.main{
+    margin-left: 350px;
+}
+
+li{
+   padding-bottom: 10px;
+    margin-left:300px; 
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+}
+footer div{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: green;
+    text-decoration: line-through;
+}
